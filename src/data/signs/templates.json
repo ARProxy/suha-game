@@ -1,0 +1,45 @@
+{
+  "templates": [
+    {
+      "id": "open-hand",
+      "name": "열린",
+      "displayName": "열린 손",
+      "handedness": "Both",
+      "threshold": 0.8,
+      "description": "손바닥을 펴고 손가락을 모두 펼친 상태",
+      "landmarks": []
+    },
+    {
+      "id": "closed-fist",
+      "name": "주먹",
+      "displayName": "주먹",
+      "handedness": "Both",
+      "threshold": 0.85,
+      "description": "손가락을 모두 접어 주먹을 쥔 상태",
+      "landmarks": []
+    },
+    {
+      "id": "v-sign",
+      "name": "V자",
+      "displayName": "V자 (평화)",
+      "handedness": "Both",
+      "threshold": 0.8,
+      "description": "검지와 중지만 펴서 V자 모양",
+      "landmarks": []
+    },
+    {
+      "id": "together",
+      "name": "우리가_함께",
+      "displayName": "함께 (모으기)",
+      "handedness": "Both",
+      "threshold": 0.75,
+      "description": "두 손을 가슴 앞에서 모으는 동작",
+      "landmarks": []
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-01",
+    "totalTemplates": 4
+  }
+}
